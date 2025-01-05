@@ -1,0 +1,3 @@
+Q. How to set multiple remote repositories for the same project? Explain the use case. you should have a working demo of it.
+A. In Git, we can setup multiple remote repositories for the same project. A projectcan have multiple remote associated with its remote location. These can be used in various situation where the project has to be uploaded to multiple location. 
+command : `` git remote add <name> <url> ```

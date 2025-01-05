@@ -1,0 +1,2 @@
+Q. Why is it not possible to create two branches with the names fix and fix/bug in a Git repository, and what causes this conflict?
+A. Git uses slashes (/) in branch names to represent a hierarchy, similar to folders. So, fix/bug is seen as a sub-branch of fix. If you create a branch called fix, it conflicts with fix/bug because Git treats fix/bug as a child of fix, not a separate branch. Hence, you cannot have both a fix branch and a fix/bug branch in the same repository.. 

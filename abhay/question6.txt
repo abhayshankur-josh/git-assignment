@@ -1,0 +1,5 @@
+Q. How to un-stage changes from the staged area. write command for it.
+A. To un-stage changes that have been added to the staging area, you can use the git reset command with the file name or . (dot) to un-stage all changes. 
+Here’s how you can do it:
+Un-stage a specific file: ``` git reset <file-name> ```
+Un-stage all changes: ``` git reset . ```

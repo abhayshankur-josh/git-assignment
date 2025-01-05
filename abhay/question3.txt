@@ -1,0 +1,2 @@
+Q. What does the git ls-files command do, and what information does its output provide regarding the state of files in a Git repository?
+A. The git ls-files command lists all the files that Git is tracking in your project. It shows which files are staged for commit, modified, or unchanged. It doesn’t include untracked files unless specified. This command is useful to see the status of files in the index (staging area) and can help you check what’s ready to be committed.
